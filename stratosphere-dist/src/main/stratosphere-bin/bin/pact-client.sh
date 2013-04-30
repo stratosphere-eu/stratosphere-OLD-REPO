@@ -54,6 +54,8 @@ constructPactCLIClientClassPath() {
 			add=1
 		elif [[ "$jarfile" =~ 'commons-cli' ]]; then
 			add=1
+		elif [[ "$jarfile" =~ 'commons-codec' ]]; then
+			add=1
 		elif [[ "$jarfile" =~ 'log4j' ]]; then
 			add=1
 		elif [[ "$jarfile" =~ 'hadoop-core' ]]; then
