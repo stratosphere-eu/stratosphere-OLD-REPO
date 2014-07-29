@@ -70,6 +70,8 @@ constructPactWebFrontendClassPath() {
 			add=1
 		elif [[ "$jarfile" =~ 'commons-io' ]]; then
 			add=1
+		elif [[ "$jarfile" =~ 'commons-codec' ]]; then
+			add=1
 		elif [[ "$jarfile" =~ 'jetty-continuation' ]]; then
 			add=1
 		elif [[ "$jarfile" =~ 'jetty-http' ]]; then
